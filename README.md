@@ -27,6 +27,6 @@ O objetivo foi desenvolver uma aplicação robusta capaz de processar uma lista 
 ## 📺 Demonstração de Uso
 Abaixo, você pode conferir o programa em execução, processando as entradas e gerando os resultados em tempo real:
 
-![Demonstração do Projeto](https://i.imgur.com/KcFgrRX.gif)
+![Demonstração do Projeto](https://i.imgur.com/G5GQKMf.gif)
 
 ---
