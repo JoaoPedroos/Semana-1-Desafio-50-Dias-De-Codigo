@@ -7,7 +7,7 @@ Este repositório contém a minha resolução para o desafio da primeira semana,
 ## 📝 O Desafio
 O objetivo foi desenvolver uma aplicação robusta capaz de processar uma lista de números inseridos pelo usuário e gerar estatísticas automáticas de forma organizada e formatada.
 
-### ✅ Requisitos Implementados:
+### ✅ Requisitos:
 * [x] Leitura de lista de números via `Scanner`.
 * [x] Armazenamento dinâmico com `java.util.ArrayList`.
 * [x] Cálculo da **Soma** total dos valores.
