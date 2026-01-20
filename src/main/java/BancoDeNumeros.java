@@ -48,8 +48,8 @@ public class BancoDeNumeros {
 
         System.out.println("Média: "+media);
         System.out.println("Soma: "+soma);
-        System.out.println("Maior N°:  BREVE");
-        System.out.println("Menor N°:  ");
+        System.out.println("Maior N°: "+verfMaior);
+        System.out.println("Menor N°: "+verfMenor);
 
     }
 
