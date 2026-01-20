@@ -13,7 +13,7 @@ O objetivo foi desenvolver uma aplicação robusta capaz de processar uma lista 
 * [x] Cálculo da **Soma** total dos valores.
 * [x] Cálculo da **Média** aritmética.
 * [x] Identificação do **Maior** e **Menor** número.
-  [] Interface de saída organizada via Terminal.
+* [ ] Interface de saída organizada via Terminal.
 
 ---
 
