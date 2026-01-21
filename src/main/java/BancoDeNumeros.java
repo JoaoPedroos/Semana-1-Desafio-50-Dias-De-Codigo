@@ -3,7 +3,6 @@ import java.util.*;
 public class BancoDeNumeros {
     public static void main(String[] args){
 
-
         int i;
         double media = 0;
         double soma = 0;
@@ -19,27 +18,28 @@ public class BancoDeNumeros {
 
 
         for(i = 1; i <= n; i++){
+
             System.out.println("Digite o "+ i +"° numero.");
             Double valores = teclado.nextDouble();
 
-            if(valores.equals("") || valores == null){
-                System.out.println("O valor inserido é inválido");
-            }
-            else{
+            try{
                 listaNumeros.add(valores);
                 soma = soma + valores ;
 
                 if(valores > verfMaior){
                     verfMaior = valores;
-                } else{
-                    System.out.println("");
+                }
+                else{
                 }
                 if (valores < verfMenor) {
                     verfMenor = valores;
                 }
                 else{
-                    System.out.println("");
                 }
+            }
+            catch(InputMismatchException e){
+                System.out.println("Algum valor inserido é inválido");
+
             }
 
         }
@@ -48,8 +48,8 @@ public class BancoDeNumeros {
 
         System.out.println("Média: "+media);
         System.out.println("Soma: "+soma);
-        System.out.println("Maior N°:  BREVE");
-        System.out.println("Menor N°:  ");
+        System.out.println("Maior N°: "+verfMaior);
+        System.out.println("Menor N°: "+verfMenor);
 
     }
 
